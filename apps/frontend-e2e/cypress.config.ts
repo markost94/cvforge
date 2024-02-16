@@ -7,11 +7,7 @@ export default defineConfig({
     ...nxE2EPreset(__filename, {
       cypressDir: 'src',
       bundler: 'vite',
-      webServerCommands: {
-        default: 'nx run client:serve',
-        production: 'nx run client:preview',
-      },
-      ciWebServerCommand: 'nx run client:serve-static',
+      webServerCommands: { default: 'nx run frontend:serve' },
     }),
     baseUrl: 'http://localhost:4200',
   },
