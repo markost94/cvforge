@@ -55,22 +55,5 @@
       }
     }
   ],
-  "nxCloudAccessToken": "ODdmNzRjMjQtZDk0My00MDQ0LWI4ZjYtMTkzNmU3NTc1MjM2fHJlYWQtd3JpdGU=",
-  "generators": {
-    "@nx/react": {
-      "application": {
-        "babel": true,
-        "style": "scss",
-        "linter": "eslint",
-        "bundler": "vite"
-      },
-      "component": {
-        "style": "scss"
-      },
-      "library": {
-        "style": "scss",
-        "linter": "eslint"
-      }
-    }
-  }
+  "nxCloudAccessToken": "ODdmNzRjMjQtZDk0My00MDQ0LWI4ZjYtMTkzNmU3NTc1MjM2fHJlYWQtd3JpdGU="
 }
